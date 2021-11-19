@@ -41,4 +41,85 @@
 .arrow-icon::after {
     content: '\e91e';
     font-family: 'icomoon';
+    margin-left: 6px;
+}
+
+.header {
+    position: relative;
+    height: 105px;
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+}
+.logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+}
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 534px;
+    height: 32px;
+    border: 2px solid #b1191a;
+}
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #f1f1f1;
+}
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+.hotwords a {
+    margin: 0 10px;
+}
+.shopcar {
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+.shopcar::before {
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-right: 5px;
+}
+.shopcar::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-right: 5px;
+}
+.count {
+    position: absolute;
+    height: 14px;
+    top: -5px;
+    left: 105px;
+    color: #fff;
+    line-height: 14px;
+    background-color: #e60012;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
 }
