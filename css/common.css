@@ -250,3 +250,28 @@
 .links a {
     margin: 0 3px;
 }
+
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.life_service {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.life_service ul {
+    width: 263px;
+}
+.life_service ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.bargain {
+    margin-top: 5px;
+}

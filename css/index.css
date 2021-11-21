@@ -14,5 +14,28 @@
     width: 250px;
     height: 455px;
     float: right;
-    background-color: blue;
+}
+.news_head {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.news_head h5 {
+    float: left;
+    font-size: 14px;
+}
+.news_head .more {
+    float: right;
+}
+.news_head .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+.news_body {
+    padding: 5px 15px 0;
+}
+.news_body ul li {
+    height: 24px;
+    line-height: 24px;
 }
